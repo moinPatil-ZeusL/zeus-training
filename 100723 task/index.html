@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zeus Task 2</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1 class="heading italic">My first web page</h1>
+    <div class="what">
+      <h3 class="bgGreen">What is this</h3>
+      <p>
+        Welcome to <span class="italic">my first webpage.</span> I created this
+        webpage without the assistance of webpage editor.Just my little text
+        editor and a keen
+        <span class="italic bold uppercase">understanding of html</span>
+      </p>
+    </div>
+    <div class="why">
+      <h3 class="bgGreen">Why this is</h3>
+      <ul class="italic">
+        <li>To Learn HTML</li>
+        <li>
+          List element
+          <ol>
+            <li>Home</li>
+            <li>FAQ</li>
+            <li>Contact</li>
+            <li>About</li>
+          </ol>
+        </li>
+        <li>Here I have created ordered and unordered list.</li>
+      </ul>
+    </div>
+    <div class="zeuslearning">
+      <h3 class="bgGreen">ZeusLearning.com</h3>
+      <a href="https://www.zeuslearning.com/" target="_blank"
+        >This link will open zeuslearning.com in new tab</a
+      >
+    </div>
+    <div class="google">
+      <h3 class="bgGreen">
+        On click of following image navigate to Google.com
+      </h3>
+      <a href="https://www.google.com" target="_blank">
+        <img src="googlePic.png" alt="" />
+      </a>
+    </div>
+    <div class="table">
+      <h3 class="colGrey">Some random table</h3>
+      <table>
+        <tr>
+          <td>Row1, cell 1</td>
+          <td>Row1, cell 2</td>
+          <td>Row1, cell 3</td>
+        </tr>
+        <tr>
+          <td>Row2, cell 1</td>
+          <td>Row2, cell 2</td>
+          <td>Row2, cell 3</td>
+        </tr>
+        <tr>
+          <td>Row3, cell 1</td>
+          <td>Row3, cell 2</td>
+          <td>Row3, cell 3</td>
+        </tr>
+        <tr>
+          <td>Row4, cell 1</td>
+          <td>Row4, cell 2</td>
+          <td>Row4, cell 3</td>
+        </tr>
+      </table>
+    </div>
+    <div class="formSection">
+      <h3 class="colGrey">Some random form</h3>
+      <p>
+        <span class="italic bold">Note</span>:It looks the part, but won't do a
+        anything
+      </p>
+      <form id="form" onsubmit="return checkForm()">
+        <p>Name</p>
+        <input type="text" id="name1" placeholder="Your Name" />
+        <p>Comments:</p>
+        <textarea
+          id="comments"
+          cols="30"
+          rows="10"
+          placeholder="your Comments"
+        ></textarea>
+        <p>Are you</p>
+        <input type="radio" name="gender" id="male" value="male" />Male
+        <br /><br />
+        <input type="radio" name="gender" id="female" value="female" />Female
+        <br /><br />
+        <button type="submit">Submit Query</button>
+      </form>
+    </div>
+  </body>
+</html>
